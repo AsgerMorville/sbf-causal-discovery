@@ -4,17 +4,20 @@ This is a small Python package that lets you generate data, fit a directed acycl
 
 ## Quick Install
 
-Ensure first that poetry is installed. Clone the repository into a folder, cd into the repository and run
+Ensure first that poetry is installed. Then run
+
 ```shell
 # 1. Clone
- git clone https://github.com/your‑org/sbf‑causal‑discovery.git
+ git clone https://github.com/AsgerMorville/sbf‑causal‑discovery.git
  cd sbf‑causal‑discovery
 
-# 2. Ensure Poetry is present
- poetry --version  # should print a version number
-
-# 3. Install package and dev tools into an isolated env
+# 2. Install packages
  poetry install
+```
+You should now be able to run the scripts inside the /scripts folder. To test this, run
+
+```shell
+poetry run python scripts/run_simulation.py
 ```
 
 ## Running the algorithm
