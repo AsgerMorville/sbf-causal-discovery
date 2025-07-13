@@ -14,10 +14,10 @@ Ensure first that poetry is installed. Then run
 # 2. Install packages
  poetry install
 ```
-You should now be able to run the scripts inside the /examples folder. To test this, run
+You should now be able to run the scripts inside the `examples/` folder. To test this, run
 
 ```shell
-poetry run python exampes/run_simulation.py
+poetry run python examples/run_simulation.py
 ```
 
 ## Running the algorithm
